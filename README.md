@@ -85,8 +85,11 @@ from small and isolated pieces of code called “components”.</summary>
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
+## 🔭 Future Features <a name="future-features"></a>
 
-To get a local copy up and running, follow these steps.
+- [ ] **[Improve the user interface of the app]**
+
+ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
