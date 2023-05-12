@@ -41,39 +41,30 @@ REQUIRED SECTIONS:
 
 ### Tech Stack <a name="tech-stack"></a>
 
-<details>
   <summary>Rails is a full-stack framework. It ships with all the tools needed to build amazing web apps on both the front and back end.</summary>
   <ul>
-    <li><a href="https://rubyonrails.org/">Rails</a></li>
+    <li><a href="https://rubyonrails.org/">Rails</a></li> </ul>
 
-<details>
   <summary>Rails is a full-stack framework. It ships with all the tools needed to build amazing web apps on both the front and back end.</summary>
   <ul>
     <li><a href="https://rubyonrails.org/">RubyOnRails</a></li>
   </ul>
-</details>
 
-<details>
   <summary>React is a declarative, efficient, and flexible JavaScript library for building user interfaces or UI components. It lets you compose complex UIs
 from small and isolated pieces of code called “components”.</summary>
   <ul>
     <li><a href="https://react.dev/">ReactJs</a></li>
   </ul>
-</details>
-    <details>
-  <summary>RA Predictable State Container for JS Apps.</summary>
+  
+  <summary>Redux is a  predictable state container for JS Apps.</summary>
   <ul>
     <li><a href="https://redux.js.org/">Redux</a></li>
   </ul>
-</details>
-
-<details>
 <summary>PostgreSQL is a powerful, open source object-relational database system with over 35 years of active development that has earned it a strong reputation for reliability, feature robustness, and performance.</summary>
 <summary>The World's Most Advanced Open Source Relational Database</summary>
   <ul>
     <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
   </ul>
-</details>
 
 ### Key Features <a name="key-features"></a>
 
