@@ -82,14 +82,7 @@ from small and isolated pieces of code called “components”.</summary>
 
 - No video presentation yet
 
-
 ## 💻 Getting Started <a name="getting-started"></a>
-
-## 🔭 Future Features <a name="future-features"></a>
-
-- [ ] **[Improve the user interface of the app]**
-
- To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
@@ -135,8 +128,12 @@ To run the project, execute the following command:
 - Twitter:[@pier_celestin](https://twitter.com/pier_celestin)
 - LinkedIn: [@pierrecelestinmax](https://linkedin.com/in/pierrecelestinmax)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **[Improve the user interface of the app]**
+
+ To get a local copy up and running, follow these steps.
 
 ## 🤝 Contributing <a name="contributing"></a>
 
