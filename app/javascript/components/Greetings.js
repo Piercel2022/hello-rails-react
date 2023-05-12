@@ -1,24 +1,21 @@
-import React from 'react'
-import { useDispatch, useSelector } from 'react-redux'
-import { useEffect, useState } from 'react'
-import { fetchGreeting } from '../store/greetingReducer'
+import React, { useEffect } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import { fetchGreeting } from '../store/greetings/greetings';
 
-export default function greetings() {
-  const dispatch = useDispatch()
-  const {loading, error, greeting} = useSelector(state => state.greeting)
+const Greeting = () => {
+  const dispatch = useDispatch();
+  const greeting = useSelector((state) => state.greetings.greeting);
+
   useEffect(() => {
-    dispatch(fetchGreeting())
-  }, [dispatch])
-  const handler = () => {
-    dispatch(fetchGreeting())
-  }
+    dispatch(fetchGreeting());
+  }, []);
 
   return (
-    <div className='greeting-container'>
-      {loading && <div className='loader'></div>}
-      {error && <p>Error!</p>}
-      <h1>{!loading && greeting}</h1>
-      {!loading && <button className="button-1" onClick={handler}>Refresh</button>}
-    </div>
-  )
-}
+    <>
+      <h1>Greeting App </h1>
+      <h3>{greeting}</h3>
+    </>
+  );
+};
+
+export default Greeting;
